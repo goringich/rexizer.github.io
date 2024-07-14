@@ -430,4 +430,15 @@ body {
   .cards.is-active .card:not(.is-active) .card__title::before {
     transform: scale(1.5) translate(-22px, -30px) !important;
   }
+
+  .card {
+    font-size: .1em !important;
+  .card__title {
+    /* font-size: 40px; */
+    font-size: 33px;
+    text-wrap: wrap;
+  }
+  .schedules__time{
+    font-size: 13px;
+  }
 }
